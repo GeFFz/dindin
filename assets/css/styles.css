@@ -244,3 +244,78 @@ footer .links-footer ul li a{
     text-decoration: none ;
     color: #009688;
 }
+
+/* CURSOS */
+.main-cursos{
+    width: 100%;
+    margin: 5%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.main-cursos h1{
+    color: #FF4081;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.main-cursos p{
+    color: #555555;
+    font-size: 20px;
+
+}
+
+.main-cursos section{
+    width: 90%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;  
+    align-items: center;
+    margin-top: 5%;
+}
+
+.main-cursos section hr{
+    width: 100%;
+    height: 5px;
+    background-color: #C4C4C4;
+    margin: 5% auto;
+}
+
+.card-cursos{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card-cursos img{
+    width: 50%;
+    max-width: 380px;
+}
+
+.card-cursos div{
+    width: 50%;
+}
+
+.card-cursos div h3{
+    color: #FF4081;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.card-cursos div p{
+    color: #000000;
+    font-size: 18px;
+    margin: 5% auto;
+}
+
+.card-cursos-comecar-agora{
+    color: #FFF;
+    text-decoration: none;
+    background-color: #419488;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 40px;
+}
