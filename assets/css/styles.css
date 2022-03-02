@@ -381,10 +381,10 @@ footer .links-footer ul li a{
     
 }
 
-/* .curso-card-aula iframe{
+        /* .curso-card-aula iframe{
 
-    
-} */
+            
+        } */
 
 .curso-card-aula div{
     margin-left: 5%;
@@ -404,3 +404,75 @@ footer .links-footer ul li a{
     font-size: 20px;
 }
 
+/* CONTATO */
+.main-contato{
+    width: 100%;
+}
+
+.main-contato section{
+    width: 100%;
+    margin: auto auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contato-form{
+    text-align: left;
+    width: 100%;
+    margin: 5%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 493px;
+}
+
+.contato-form h1{
+    color: #FF4081;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.contato-form input{
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 5px 20px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.contato-form textarea{    
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 5px 20px;
+    margin: 10px 0px;
+    width: 100%;
+    min-height: 160px;
+    max-height: 193px;
+}
+
+.contato-form button{   
+    color: #FFF;
+    font-weight: bold;
+    background: #FF4081;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 40px;
+    margin: 10px 0px;
+}
+
+.contato-banner-lateral{
+    width: 100%;
+    max-width: 444px;
+    height: 444px;
+    background-image: url(../images/ilustra-contato.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
