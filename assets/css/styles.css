@@ -4,7 +4,8 @@
 *{
     font-family: 'Ubuntu';
     margin: 0;   
-    padding: 0; 
+    padding: 0;
+    
 }
 
 /* HEADER */
@@ -20,7 +21,8 @@ header .menu-header{
 }
 
 header .logo-header, .menu-header{
-    padding: 10px 40px;
+    padding: 10px 30px;
+    box-sizing: border-box;
 }
 
 
@@ -197,7 +199,7 @@ footer .links-footer ul li a{
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    max-width: 610px;    
+    max-width: 510px;
 }
 
 .card-falam div, p{
@@ -405,8 +407,9 @@ footer .links-footer ul li a{
 .curso-card-aula{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 10px;
     
 }
 
@@ -416,7 +419,6 @@ footer .links-footer ul li a{
         } */
 
 .curso-card-aula div{
-    margin-left: 5%;
     width: 50%;
 }
 
@@ -450,7 +452,7 @@ footer .links-footer ul li a{
 .contato-form{
     text-align: left;
     width: 100%;
-    margin: 5%;
+    margin: 10% 5%;
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-start;
@@ -545,7 +547,7 @@ footer .links-footer ul li a{
 
 .banner-blog-right{
     height: 405px;
-    width: 40%;
+    width: 50%;
     max-width: 405px;
     background-image: url(../images/ilustra-blog.png);
     background-repeat: no-repeat;
@@ -561,7 +563,7 @@ footer .links-footer ul li a{
 .main-blog section nav{
     display: flex;
     flex-flow: row wrap;
-    width: 90%;
+    width: 100%;
     justify-content: space-evenly;
     align-items: center;
     margin: auto auto;
@@ -571,15 +573,21 @@ footer .links-footer ul li a{
 
 .main-blog section nav a{
     text-decoration: none;
+    width: 100%;
+    max-width: 450px;
 }
 
 .card-blog{
-    max-width: 518px;
+    width: 100%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: flex-start;
     padding: 50px 0px;
+}
+
+.card-blog img{
+    width: 100%;
 }
 
 .card-blog h3{
@@ -641,3 +649,155 @@ footer .links-footer ul li a{
     color: #009688;
     font-weight: bold;
 }
+
+
+@media screen and (max-width: 1200px){
+    .card-falam{        
+        max-width: 420px;    
+    }
+
+    .card-comecar{
+        margin: 60px 0px;
+    }
+
+    .card-mais{
+        margin: 40px 0px;
+    }
+
+    .curso-card-aula div{
+       max-width: 420px;
+    }
+}
+
+
+
+@media screen and (max-width: 992px){
+    .banner-inicio img{
+        display: none;
+    }
+
+    .falam-inicio section{
+        justify-content: center;        
+    }
+    .todos-post-box{
+        margin-bottom: 40px;
+    }
+    .card-cursos{
+        text-align: center;
+        flex-flow: column nowrap;
+        justify-content: center;
+        
+    }
+    .card-cursos div p{
+        text-align: justify;
+        margin: 30px auto;
+    }
+    .linha-div{
+        
+        margin: 70px auto;
+    }
+    .card-cursos div{
+        margin-bottom: 40px;
+    }
+    .curso-banner-left{
+        width: 100%;
+    }
+    .curso-banner-right{
+        display: none;
+    }
+    .curso-card-aula{
+        width: 100%;
+        flex-flow: column nowrap;
+        justify-content: center;        
+    }
+    .curso-card-aula div {
+        width: 100%;
+    }
+    .main-curso section nav{
+        margin-bottom: 70px;
+    }
+    .contato-banner-lateral{
+        display: none;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 768px){
+    header .menu-header{        
+        justify-content: center;  
+    }
+    header .menu-header ul{        
+        margin: 20px 0px 10px 0px;
+    }
+    .mais-inicio nav{       
+        justify-content: center;
+    }
+    footer{
+        gap: 20px 40px;
+        padding: 20px 10px;
+    }
+    .card-cursos img{
+        width: 80%;
+        max-width: 380px;
+    }
+    
+    .card-cursos div{
+        width: 80%;
+    }
+    .banner-blog-right {
+        display: none;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 480px){
+    header .menu-header ul li{
+        padding: 0px;
+        margin: auto 8px;
+    }    
+    header .menu-header ul li a{
+        font-size: 16px;
+    }
+    .titulo-banner-inicio{
+        font-size: 45px;        
+    }
+    .card-falam{
+        flex-flow: column nowrap;    
+        text-align: center;    
+    }      
+    .todos-post-box .todos-post{      
+        padding: 10px 30px;        
+    }
+    .mais-inicio-box h2, .falam-inicio-box h2{
+        font-size: 30px;
+    }
+    footer .menu-footer{
+        width: 100%;
+    }
+
+    footer .menu-footer ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    iframe{
+        width: auto;
+        height: auto;
+    }
+    .curso-banner-left h1 {
+        box-sizing: border-box;
+        font-size: 40px;        
+    }
+    .curso-card-aula div h3 {
+        font-size: 28px;        
+    }
+    .banner-blog-left .titulo-banner-blog {
+        font-size: 35px;
+    }
+}
+
+
