@@ -476,3 +476,92 @@ footer .links-footer ul li a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* BLOG */
+.main-blog{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner-blog{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0%;
+}
+
+.banner-blog-left{
+    width: 60%;
+    max-width: 512px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-blog-left .titulo-banner-blog{
+    color: #009688;
+    font-size: 47px;
+    font-weight: bold;
+
+}
+
+.banner-blog-left .subtitulo-banner-blog{
+    color: #000000;
+    font-size: 20px;
+}
+
+.banner-blog-right{
+    height: 405px;
+    width: 40%;
+    max-width: 405px;
+    background-image: url(../images/ilustra-blog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-blog section{
+    width: 100%;
+    background-color: #F7F7F7;
+    
+}
+
+.main-blog section nav{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto auto;
+    gap: 5%;
+    margin: 5% auto;
+}
+
+.main-blog section nav a{
+    text-decoration: none;
+}
+
+.card-blog{
+    max-width: 518px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0px;
+}
+
+.card-blog h3{
+    color: #FF4081;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+
+.card-blog p{
+    color: #000000;
+    font-size: 17px;
+}
